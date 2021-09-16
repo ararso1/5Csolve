@@ -33,11 +33,13 @@
   <a href="#news">News</a>
   <a href="#news">About</a>
   <div class="social text-gray">
-            <a href="#"><i class="fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-google"></i></a>
+        <a href="facebook"> <i class="fa fa-facebook"></i></a>
+        <a href="website"> <i class="fa fa-google"></i></a>
+        <a href="whatsapp"> <i class="fa fa-whatsapp"></i></a>
+        <a href="telegram"> <i class="fa fa-telegram"></i></a>
+        <a href="youtube"> <i class="fa fa-youtube"></i></a>
+        <a href="instagram"> <i class="fa fa-instagram"></i></a>
+
     </div>
 </div>
 </div>

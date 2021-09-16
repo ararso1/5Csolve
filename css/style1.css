@@ -104,20 +104,17 @@ body {
   color: green;
 }
 .learn-tech .tech{
-  width: 100%;
-  margin: 20px;
+  width: 23%;
   display: flex;
   float: left;
   margin-left: 5%;
   box-shadow: 0px 3px 5px 0px black;
   cursor: pointer;
+  display: block;
+  margin-bottom: 50px;
 }
 .learn-tech .tech img{
-  width: 271px;  
-}
-.learn-tech .part1{
-  width: 20%;
-  display: block;
+  width: 100%;  
 }
 .learn-tech .tech:hover{
   opacity: .8;
@@ -126,41 +123,28 @@ body {
   cursor: pointer;
   margin: 10px 0px;
   color: green;
+  padding-left: 5px;
 }
 .learn-tech .tech h3:hover{
   color: rgb(189, 52, 52);
 }
 .learn-tech .tech p{
   margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9c9da5;
+  padding-left: 10px;
 }
-.learn-tech .part2{
-  width: 20%;
-  display: block;
-}
-.learn-tech .part3{
-  width: 20%;
-  display: block;
-  
-}
-.learn-tech .part4{
-  width: 20%;
-  display: block;
-  
-}
-.learn-tech .part5{
-  width: 20%;
-  display: block;
-  
-}
-.learn-tech .part6{
-  width: 20%;
-  display: block;
-  
+.popular-post{
+  width: 100%;
 }
 .popular-post a{
   text-decoration: none;
   line-height: 20px;
   font-size: 18px;
+}
+.popular-post h3{
+  font-size: 23px;
+  color: red;
 }
 .popular-post a:hover{
   color: rgb(182, 57, 26);
@@ -173,23 +157,36 @@ body {
   }
   .learn-tech .tech{
     flex-direction: column;
-    width: 100%;
+    position: relative;
+    width: 80%;
   }
-  .learn-tech .part1{
-    margin-right: 200px;
+  .learn-tech .tech img{
+    width: 100%;
   }
   .popular-post{
-    margin-left: 5%;
+    width: 100%;
+    padding-left: 40px;
   }
-
 }
-@media only screen and (max-width:700px){
+@media only screen and (min-width:700px){
   .learn-tech{
     width: 100%;
+    display: block;
+  }
+  .popular-post{
+    margin-top: 120%;
+    padding-left: 5%;
+    margin-bottom: 0px;
   }
 }
-
-@media only screen and (min-width:920px){
+@media only screen and (min-width:900px){
+  .popular-post{
+    width: 100%;
+    margin-top: 0%;
+  }
+  .learn-tech .tech{
+    margin-right: 20px;
+  }
   
 }
 
@@ -202,19 +199,16 @@ body {
 ============================*/
 
 footer .container{
-  background: url(../images/pattern.ng) center repeat;
   background-color: rgba(8, 8, 8, 0.808);
-  padding: 90px 0;
-  z-index: 1;
-  position: relative;
   text-align: left;
   margin-top: 50%;
-  padding-top: -15%;
+  padding-top: 40px;
 }
 footer h4 {
   color:rgb(233, 230, 225);
   font-family: "Source Sans Pro", sans-serif;
   margin-bottom: 15px;
+  font-size: 20px;
 } 
 .container{
   width: 100%;
@@ -270,6 +264,7 @@ footer .social-media a:hover{
 }
 footer .comment{
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 .footer .comment input{
   width: 100%;
@@ -319,6 +314,16 @@ footer .rigth p{
   .container .color-grey input,textarea{
     width: 80%;
   }
+}
+@media only screen and (min-width:700px){
+  footer .container{
+    width: 100%;
+    
+  }
+  .container .color-grey input,textarea{
+    width: 130%;
+  }
+  
 }
 
 /* end footer********************** */
