@@ -1,3 +1,14 @@
+$(document).ready(function(){
+    $nav = $('.navbar');
+    $toggleCollapse = $('.toggle-collapse');
+
+    /* Click event for toggle menu */
+    $toggleCollapse.onclick(function(){
+        $nav.toggleClass('collapse');
+    })
+})
+
+
 function comment(){
 
     var email = document.getElementById('email').value;

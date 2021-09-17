@@ -18,8 +18,25 @@ body {
     background-color: green;
     width: 100%;
     display: flex;
+    height: 4rem;
+    transition: height 1s ease-in-out;
   }
-  
+  .navbar .toggle-collapse{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    cursor: pointer;
+    display: none;
+  }
+  .navbar .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 28px;
+    color: #ddd;
+  }
+  .collapse{
+    height: 30rem;
+  }
   .navbar a {
     float: left;
     font-size: 16px;
@@ -150,6 +167,25 @@ body {
   color: rgb(182, 57, 26);
 }
 @media only screen and (max-width:700px) {
+  .navbar .toggle-collapse{
+    display: initial;
+    padding-right: 10px;
+    padding-top: 5px;
+  }
+  .navbar .nav-element{
+    margin-top: 50px;
+    margin-left: -130px;
+    width: 50%;
+    flex-direction: column;
+  }
+  .navbar .nav-element a{
+    width: 100%;
+    text-align: left;
+  }
+  .navbar .nav-element a:hover,.dropdown:hover,.dropbtn{
+    background-color: green;
+    color: rgb(29, 160, 221);
+  } 
   .learn-tech{
     width: 100%;
     flex-direction: column;

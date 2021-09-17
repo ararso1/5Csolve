@@ -15,23 +15,24 @@
     
 <!-- navbar start -->
 <div class="navbar">
-    <div class="logo"><a href="#">5Csolve</a></div>
+<div class="logo"><a href="index.php"><img src="images/logo/logo5.jpg" alt="logo" width=150px heigth=30px></a></div>
     <div class="nav-element">
-    <a href="#home">Home</a>
+    <a href="index.php">Home</a>
     <div class="dropdown">
         <button class="dropbtn">Topics 
             <i class="fa fa-caret-down"></i>
         </button>
     <div class="dropdown-content">
-      <a href="#">Computer</a>
-      <a href="#">Crypto Currency</a>
-      <a href="#">Cyber Security</a>
-      <a href="#">Commercial</a>
-      <a href="#">Continent</a>
+      <a href="computer.php">Computer Fundamentals</a>
+      <a href="#">learn HTML</a>
+      <a href="https://www.kaspersky.com/resource-center/definitions/what-is-cyber-security">Cyber Security</a>
+      <a href="https://www.computerhope.com/jargon/p/programming-language.htm?__cf_chl_captcha_tk__=pmd_lPPM0qsJL2Y6d4Bg0XlW2oLrRpUcCAGDsNaT6fUO5LU-1631687910-0-gqNtZGzNAuWjcnBszQlR">Programming language</a>
+      <a href="#">Web Technology</a>
     </div>
   </div> 
   <a href="#news">News</a>
-  <a href="#news">About</a>
+  <a href="#">Business</a>
+  <a href="#news">About</a>>
   <div class="social text-gray">
         <a href="facebook"> <i class="fa fa-facebook"></i></a>
         <a href="website"> <i class="fa fa-google"></i></a>
@@ -48,27 +49,27 @@
 <section id="content">
 
     <div class="com-logo">
-        <h1>Fundamental of Computer</h1>
+        <h1>Fundamental of Computers</h1>
     </div>
     <div class="com-topics">
         <div class="part1">
             <h4 onclick="dropdown()" class="dropbtn">Computer <i class="fa fa-caret-down"></i></h4>
             <div id="head1" class="head">
                
-                <a href="#"><h5>Computer Fundamentals</h5></a>
-                <a href="#"><h5>What is the Computer</h5></a>
-                <a href="#"><h5>History of computer</h5></a>
-                <a href="#"><h5>Types of computer</h5></a>
+                <a href="#"><h5><i class="fa fa-arrow-right"></i> Computer Fundamentals</h5></a>
+                <a href="#"><h5><i class="fa fa-arrow-right"></i> What is the Computer</h5></a>
+                <a href="#"><h5><i class="fa fa-arrow-right"></i> History of computer</h5></a>
+                <a href="#"><h5><i class="fa fa-arrow-right"></i> Types of computer</h5></a>
             </div>
        
             <h4 id="h4">Computer Components  <i class="fa fa-caret-down"></i></h4>
-            <a href="#"> <h5>Computer Components</h5></a>
-            <a href="#"><h5>input Device</h5></a>
-            <a href="#"><h5>Central Processing Unit</h5></a>
-            <a href="#"><h5>Central Processing Unit</h5</a>
-            <a href="#"><h5>Hardware</h5></a>
-            <a href="#"><h5>Software</h5></a>
-            <a href="#"><h5>Operating System</h5></a>
+            <a href="#"> <h5><i class="fa fa-arrow-right"></i> Computer Components</h5></a>
+            <a href="#"><h5><i class="fa fa-arrow-right"></i> input Device</h5></a>
+            <a href="#"><h5><i class="fa fa-arrow-right"></i> Central Processing Unit</h5></a>
+            <a href="#"><h5><i class="fa fa-arrow-right"></i> Central Processing Unit</h5</a>
+            <a href="#"><h5><i class="fa fa-arrow-right"></i> Hardware</h5></a>
+            <a href="#"><h5><i class="fa fa-arrow-right"></i> Software</h5></a>
+            <a href="#"><h5><i class="fa fa-arrow-right"></i> Operating System</h5></a>
         </div>
         
     </div>
