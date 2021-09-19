@@ -1,17 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
-error_reporting(0);
-session_start();
-if(isset($_POST['submit'])){
-    $email=$_POST['email'];
-    $text=$_POST['text'];
-    
-    
-}
-
-?>
-
 
 <head>
     <meta charset="UTF-8">
@@ -82,7 +70,7 @@ if(isset($_POST['submit'])){
         </div>
         <div class="tech part5">
         <img src="images/html.png" alt="logo">
-            <h3>Introduction to Html</h3>
+            <h3>Learn Html</h3>
             <p>HTML stands for HyperText Markup Language. It is used to design web pages using a markup language. HTML is the combination of Hypertext and Markup language.</p>
         </div>
 

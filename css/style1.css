@@ -183,7 +183,7 @@ body {
     text-align: left;
   }
   .navbar .nav-element a:hover,.dropdown:hover,.dropbtn{
-    background-color: green;
+    background-color:green;
     color: rgb(29, 160, 221);
   } 
   .learn-tech{
