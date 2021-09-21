@@ -50,9 +50,9 @@
 <section id="content">
 
     <div class="com-logo">
-        <h1><h1>Learn Fundamental of Computers</h1></h1>
+        <h1>Computer Components</h1>
     </div>
-
+    
     <div class="com-topics">
         <div class="part1">
             <h4 onclick="dropdown()" class="dropbt">Computer <i class="fa fa-caret-down"></i></h4>
@@ -70,11 +70,10 @@
             <a href="computer-hardware.php"><h5><i class="fa fa-arrow-right"></i> Computer Hardware</h5></a>
             <a href="central-processing-unit.php"><h5><i class="fa fa-arrow-right"></i> Central Processing Unit</h5></a>
             <a href="input-device.php"><h5><i class="fa fa-arrow-right"></i> Input Device</h5</a>
-            <a href="output-device.php"><h5><i class="fa fa-arrow-right"></i> Output Device</h5></a>
-            <a href="memory.php"><h5><i class="fa fa-arrow-right"></i> Memory</h5></a>
+            <a href="#"><h5><i class="fa fa-arrow-right"></i> Output Device</h5></a>
+            <a href="computer-memory.php"><h5><i class="fa fa-arrow-right"></i> Memory</h5></a>
             <a href="computer-software.php"><h5><i class="fa fa-arrow-right"></i> Computer Software</h5></a>
             <a href="operating-system.php"><h5><i class="fa fa-arrow-right"></i> Operating System</h5></a>
-        </div>
         
     </div>
 
@@ -83,17 +82,20 @@
 <section id="description">
     <div class="com-funda">
         <div class="next-prev">
-            <a href="what-is-computer.php"><button> Next<i class="fa fa-arrow-right"></i></button></a>
+            <a href="central-processing-unit.php"><button><i class="fa fa-arrow-left"></i> Previous</button></a>
+            <a href="output-device.php"><button> Next<i class="fa fa-arrow-right"></i></button></a>
         </div>
-        <h3>Fundamental of Computers</h3>
-        <p>Computer fundamentals tutorial provides basic and advanced concepts of Computer. Our Computer fundamentals is designed for beginners and professionals.</p>
-        <p>Computer is an electronic device i.e. used to work with information or compute. It is derived from the Latin word "computare" which means to calculate.</p>
-        <p>Our Computer fundamentals tutorial includes all topics of Computer fundamentals such as input devices, output devices, memory, CPU, motherboard, computer network, virus, software, hardware etc.</p>
-        <h3>Prerequisite</h3>
-        <p>There is nothing specific prerequisite for learning computer fundamentals.</p>
-    
+        <h3>Input Device</h3>
+        <h4>Input / Output Devices:</h4> 
+        <p><b>Input / Output Devices (I/O)</b>- are used to enter information and instructions into a computer for storage or processing and to deliver the processed data to a user. Input/Output devices are required for users to communicate with the computer. In simple terms,
+        input devices bring information INTO the computer and output devices bring information OUT of a computer system. These input/output devices are also known as peripherals since they surround the CPU and memory of a computer system.</p>
+        
+        <h4>Input Devices</h4>  
+        <p>An input device is any device that provides input to a computer. There are many input devices, but the two most common ones are a keyboard and mouse. Every
+        key you press on the keyboard and every movement or click you make with the mouse sends a specific input signal to the computer.</p>  
         <div class="next-prev">
-            <a href="What-is-computer.php"><button> Next<i class="fa fa-arrow-right"></i></button></a>
+            <a href="central-processing-unit.php"><button><i class="fa fa-arrow-left"></i> Previous</button></a>
+            <a href="#"><button> Next<i class="fa fa-arrow-right"></i></button></a>
         </div>
     </div>
      

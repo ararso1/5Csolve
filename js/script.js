@@ -3,13 +3,13 @@ $(document).ready(function(){
     $toggleCollapse = $('.toggle-collapse');
 
     /* Click event for toggle menu */
-    $toggleCollapse.onclick(function(){
+    $toggleCollapse.click(function(){
         $nav.toggleClass('collapse');
     })
 })
 
 
-function comment(){
+/* function comment(){
 
     var email = document.getElementById('email').value;
     var text = document.getElementById('text').value;
@@ -41,7 +41,7 @@ function dropdown(){
 }
 
 window.onclick = function(event){
-    if(!event.target.matches('.dropbtn')){
+    if(!event.target.matches('.dropbt')){
         var drop = document.getElementsByClassName('head');
         var i;
         for (i = 0; i < drop.length; i++){
@@ -52,4 +52,4 @@ window.onclick = function(event){
         }
     }
 }
-
+ */

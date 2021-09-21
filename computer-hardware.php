@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computer Fundamentals</title>
+    <title>type of computers</title>
     <link rel="icon" href="images/logo/5Csolve-logo1.png" type="image/icon type">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -41,7 +41,6 @@
         <a href="telegram"> <i class="fa fa-telegram"></i></a>
         <a href="youtube"> <i class="fa fa-youtube"></i></a>
         <a href="instagram"> <i class="fa fa-instagram"></i></a>
-
     </div>
 </div>
 </div>
@@ -50,7 +49,7 @@
 <section id="content">
 
     <div class="com-logo">
-        <h1><h1>Learn Fundamental of Computers</h1></h1>
+        <h1><h1>Computer Components</h1></h1>
     </div>
 
     <div class="com-topics">
@@ -83,17 +82,25 @@
 <section id="description">
     <div class="com-funda">
         <div class="next-prev">
-            <a href="what-is-computer.php"><button> Next<i class="fa fa-arrow-right"></i></button></a>
+            <a href="types-of-computer.php"><button><i class="fa fa-arrow-left"></i> Previous</button></a>
+            <a href="input-device.php"><button> Next<i class="fa fa-arrow-right"></i></button></a>
         </div>
-        <h3>Fundamental of Computers</h3>
-        <p>Computer fundamentals tutorial provides basic and advanced concepts of Computer. Our Computer fundamentals is designed for beginners and professionals.</p>
-        <p>Computer is an electronic device i.e. used to work with information or compute. It is derived from the Latin word "computare" which means to calculate.</p>
-        <p>Our Computer fundamentals tutorial includes all topics of Computer fundamentals such as input devices, output devices, memory, CPU, motherboard, computer network, virus, software, hardware etc.</p>
-        <h3>Prerequisite</h3>
-        <p>There is nothing specific prerequisite for learning computer fundamentals.</p>
-    
-        <div class="next-prev">
-            <a href="What-is-computer.php"><button> Next<i class="fa fa-arrow-right"></i></button></a>
+        <h3>COMPUTER HARDWARE</h3>
+        
+        <p><b>Hardware system:</b> Computer hardware consists of the components that can be physically handled. It refers to the physical units or machine of functional units, which makes up the computer configuration which is
+        done to suit the goals and objectives of the user. The function of these components is typically divided into three main categories: input, output, and storage. Components in these categories connect to microprocessors,
+        specifically, the computers central processing unit (CPU), the electronic circuitry that provides the computational ability and control of the computer, via wires or circuitry called a bus. Hardware may be
+        classified into Central Processing Units (CPU) and the peripherals. The CPU entails Control Unit (CU), Arithmetic and Logic Unit (ALU) and the Internal Memory Unit (IMU) or main memory. The peripherals consist of the input, output and Auxiliary Storage Units.</p>
+        <p>Strictly speaking, computer is made up of five district elements to include:</p>
+        <p><span>1. A central processing unit (ALU and CU) <br>
+            2. Input unit <br>
+            3. Output unit <br>
+            4. Storage unit (Internal and Auxiliary) <br>
+            5. The communication network; Bus that links all the elements of the system, and connects the <br>
+            6. External world. (Cables and Cords)</span></p>        
+    <div class="next-prev">
+        <a href="types-of-computer.php"><button><i class="fa fa-arrow-left"></i> Previous</button></a>
+            <a href="input-device.php"><button> Next<i class="fa fa-arrow-right"></i></button></a>
         </div>
     </div>
      

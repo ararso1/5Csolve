@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>learn Technology</title>
+    <title>type of computers</title>
+    <link rel="icon" href="images/logo/5Csolve-logo1.png" type="image/icon type">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -64,13 +65,14 @@
             </div>
        
             <h4 id="h4">Computer Components  <i class="fa fa-caret-down"></i></h4>
-            <a href="#"> <h5><i class="fa fa-arrow-right"></i>Computer Components</h5></a>
-            <a href="#"><h5><i class="fa fa-arrow-right"></i> input Device</h5></a>
-            <a href="#"><h5><i class="fa fa-arrow-right"></i> Central Processing Unit</h5></a>
-            <a href="#"><h5><i class="fa fa-arrow-right"></i> Central Processing Unit</h5</a>
-            <a href="#"><h5><i class="fa fa-arrow-right"></i> Hardware</h5></a>
-            <a href="#"><h5><i class="fa fa-arrow-right"></i> Software</h5></a>
-            <a href="#"><h5><i class="fa fa-arrow-right"></i> Operating System</h5></a>
+            <a href="computer-hardware.php"> <h5><i class="fa fa-arrow-right"></i>Fundamental of Computers</h5></a>
+            <a href="computer-hardware.php"><h5><i class="fa fa-arrow-right"></i> Computer Hardware</h5></a>
+            <a href="central-processing-unit.php"><h5><i class="fa fa-arrow-right"></i> Central Processing Unit</h5></a>
+            <a href="input-device.php"><h5><i class="fa fa-arrow-right"></i> Input Device</h5</a>
+            <a href="output-device.php"><h5><i class="fa fa-arrow-right"></i> Output Device</h5></a>
+            <a href="memory.php"><h5><i class="fa fa-arrow-right"></i> Memory</h5></a>
+            <a href="computer-software.php"><h5><i class="fa fa-arrow-right"></i> Computer Software</h5></a>
+            <a href="operating-system.php"><h5><i class="fa fa-arrow-right"></i> Operating System</h5></a>
         </div>
         
     </div>
@@ -81,7 +83,7 @@
     <div class="com-funda">
         <div class="next-prev">
             <a href="generation-of-computer.php"><button><i class="fa fa-arrow-left"></i> Previous</button></a>
-            <a href="what-is-computer.php"><button> Next<i class="fa fa-arrow-right"></i></button></a>
+            <a href="computer-hardware.php"><button> Next<i class="fa fa-arrow-right"></i></button></a>
         </div>
         <h3>TYPES OF COMPUTERS</h3>
         
@@ -99,7 +101,7 @@
 
         <div class="next-prev">
         <a href="what-is-computer.php"><button><i class="fa fa-arrow-left"></i> Previous</button></a>
-            <a href="What-is-computer.php"><button> Next<i class="fa fa-arrow-right"></i></button></a>
+            <a href="computer-hardware.php"><button> Next<i class="fa fa-arrow-right"></i></button></a>
         </div>
     </div>
      
