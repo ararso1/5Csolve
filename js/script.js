@@ -7,9 +7,26 @@ $(document).ready(function(){
         $nav.toggleClass('collapse');
     })
 })
+/* update counter */
+const countEl = document.getElementById('count');
+
+function updateCounter() {
+    fetch('https://api.countapi.xyz/hit/5csolve/')
+        .then(res => res.json())
+        .then(res => countEl.innerHTML = res.value)
+
+}
+
+updateCounter()
 
 
-/* function comment(){
+
+
+
+
+/* update Conuter */
+
+function comment(){
 
     var email = document.getElementById('email').value;
     var text = document.getElementById('text').value;
@@ -52,4 +69,3 @@ window.onclick = function(event){
         }
     }
 }
- */

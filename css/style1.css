@@ -34,7 +34,7 @@ body {
     color: #ddd;
   }
   .collapse{
-    height: 30rem;
+    height: 35rem;
   }
   .navbar a {
     float: left;
@@ -176,6 +176,7 @@ body {
     margin-left: -130px;
     width: 50%;
     flex-direction: column;
+    height: 2vh;
   }
   .navbar .nav-element a{
     width: 100%;
