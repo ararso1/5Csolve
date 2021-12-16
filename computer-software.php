@@ -1,38 +1,5 @@
-<?php include "header.php"?>
-<!-- navbar ends -->
-<!--start of the content-->
-<section id="content">
+<?php include "computer-header.php"?>
 
-    <div class="com-logo">
-        <h1><h1>Learn Fundamental of Computers</h1></h1>
-    </div>
-
-    <div class="com-topics">
-        <div class="part1">
-            <h4 onclick="dropdown()" class="dropbt">Computer <i class="fa fa-caret-down"></i></h4>
-            <div id="head1" class="head">
-               
-                <a href="computer.php"><h5><i class="fa fa-arrow-right"></i> Fundamental of Computers</h5></a>
-                <a href="what-is-computer.php"><h5><i class="fa fa-arrow-right"></i> What is the Computer</h5></a>
-                <a href="history-of-computer.php"><h5><i class="fa fa-arrow-right"></i> History of Computer</h5></a>
-                <a href="generation-of-computer.php"><h5><i class="fa fa-arrow-right"></i> Generation of Computer</h5></a>
-                <a href="types-of-computer.php"><h5><i class="fa fa-arrow-right"></i> Types of computer</h5></a>
-            </div>
-       
-            <h4 id="h4">Computer Components  <i class="fa fa-caret-down"></i></h4>
-            <a href="computer-hardware.php"> <h5><i class="fa fa-arrow-right"></i>Fundamental of Computers</h5></a>
-            <a href="computer-hardware.php"><h5><i class="fa fa-arrow-right"></i> Computer Hardware</h5></a>
-            <a href="central-processing-unit.php"><h5><i class="fa fa-arrow-right"></i> Central Processing Unit</h5></a>
-            <a href="input-device.php"><h5><i class="fa fa-arrow-right"></i> Input Device</h5</a>
-            <a href="output-device.php"><h5><i class="fa fa-arrow-right"></i> Output Device</h5></a>
-            <a href="computer-memory.php"><h5><i class="fa fa-arrow-right"></i> Memory</h5></a>
-            <a href="computer-software.php"><h5><i class="fa fa-arrow-right"></i> Computer Software</h5></a>
-            <a href="operating-system.php"><h5><i class="fa fa-arrow-right"></i> Operating System</h5></a>
-         </div>
-        
-    </div>
-
-</section>
 
 <section id="description">
     <div class="com-funda">

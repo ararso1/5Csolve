@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.admin{
+    padding: 20px;
+    box-shadow: black 0px 0px 2px;
+}
+.dash{
+    display: flex;
+}
+.dash-menu{
+    width: 14%;
+    padding: 25px;
+    box-shadow: black 0px 0px 1px 0px; 
+    padding-bottom: 100%;
+}
+.dash .dashboard{
+    width: 100%;
+}
+.dash .dashboard h4{
+    padding: 20px;
+    color: rgb(25, 219, 219);
+    font-size: 25px;
+    box-shadow: rgb(230, 226, 226) 0px 1px;
+    padding-bottom: 10px;
+}
+.dash-menu p{
+    padding: 10px;
+}

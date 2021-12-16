@@ -51,6 +51,7 @@ function comment(){
         message.style.color="red";
     }
     event.preventDefault();
+    document.getElementById("com").reset();
 }
 
 function dropdown(){

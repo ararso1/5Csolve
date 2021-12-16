@@ -1,4 +1,19 @@
 
+<?php
+include "connection/connect.php";
+
+if(isset($_POST['submit'])){
+  $email = $_POST['email'];
+  $text = $_POST['text'];
+  $sql = "insert into comment (email, text) values ('$email', '$text')";
+  if(mysqli_query($conn, $sql)){
+      echo "success";
+  }
+
+}
+
+
+?>
 <!-- footer start -->
             <!-- start: FOOTER -->
             <footer class="footer">
@@ -75,11 +90,11 @@
                         </div>
                         <div class="comment color-grey">
                             <h4>Leave comment</h4>
-                            <form action="#" method="post">
+                            <form action="#" method="post" id='com'>
                                 <input type="text" name='email' id="email" placeholder="your email" required><br>
                                 <textarea name="text" id="text" cols="50" rows="10" placeholder="Leave Your Comment" required></textarea>
                                 <label id="label" style="color: red; visibility:hidden"> Please!, Put the email</label><br>
-                                <button type="submit" name='submit' onclick="comment()" >Submit</button>
+                                <button type="submit" name='submit' value="submit" onclick="comment()" >Submit</button>
                             </form>
                         </div>
                     </div>
@@ -92,11 +107,11 @@
         </footer>
 
 <!-- footer ends -->
-<!-- <script>
+<script>
     if(window.history.replaceState){
         window.history.replaceState(null, null, window.location.href);
     }
-</script> -->
+</script>
 <!-- js script and library-------------------- -->
 <script src="js/jQuery.min.js"></script>
 <script src="js/script.js"></script>

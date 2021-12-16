@@ -15,7 +15,7 @@
     margin-bottom: 50px;
 }
 #content{
-    margin-top: 18.5%;
+    padding-top: 55px;
 }
 .com-topics{
     width: 19%;
@@ -101,9 +101,13 @@
 .com-funda span{
     padding-left: 30px;
 }
+.img{
+    text-align: center;
+    width: 50%;
+}
 @media only screen and (max-width:930px){
     #content{
-        margin-top: 0px;
+        padding-top: 55px;
     }
     .com-logo{
         margin-bottom: 0px;
@@ -131,22 +135,23 @@
         margin-top: 0px;
     }
     #content .com-topics{
-        margin-top: -250px;
+        margin-top: -180px;
         position: relative;
     }
     #description .com-funda{
         margin-top: -270px;
     }
     footer{
-        margin-top: -500px;
+        margin-top: -400px;
+
     }
 }
-@media only screen and (min-width:1280px){
+@media only screen and (min-width:11380px){
     #content{
         margin-top: 0px;
     }
     #content .com-topics{
-        margin-top: -195px;
+        margin-top: 500px;
         position: relative;
     }
     #description .com-funda{
@@ -155,6 +160,4 @@
     footer{
         margin-top: -500px;
     }
-   
 }
-

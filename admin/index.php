@@ -12,19 +12,20 @@ if(isset($_POST['submit']))
 	
 	if(!empty($_POST["submit"])) 
      {
-	$loginquery ="SELECT * FROM admin WHERE username='$username' && password='".md5($password)."'";
-	$result=mysqli_query($db, $loginquery);
+	$loginquery ="SELECT * FROM admin WHERE username='$username' && password='$password'";
+	$result=mysqli_query($conn, $loginquery);
 	$row=mysqli_fetch_array($result);
 	
-	                        if(is_array($row))
+	            if(is_array($row))
 								{
-                                    	$_SESSION["adm_id"] = $row['adm_id'];
-										 header("refresh:1;url=dashboard.php");
-	                            } 
+                    $_SESSION["adm_id"] = $row['adm_id'];
+										header("refresh:1;url=dashboard.php");
+	                 } 
 							else
 							    {
-                                      	$message = "Invalid Username or Password!";
-                                }
+                    $message = "Invalid Username or Password!";
+            
+                   }
 	 }
 	
 	
@@ -55,7 +56,7 @@ if(isset($_POST['submit']))
 <div class="form">
   <div class="thumbnail"><img src="images/manager.png"/></div>
   
-  <form class="register-form" action="index.php" method="post">
+<!--<form class="register-form" action="index.php" method="post">
     <input type="text" placeholder="username" name="cr_user"/>
     <input type="text" placeholder="email address"  name="cr_email"/>
 	 <input type="password" placeholder="password"  name="cr_pass"/>
@@ -63,7 +64,7 @@ if(isset($_POST['submit']))
 	  <input type="password" placeholder="Unique-Code"  name="code"/>
    <input type="submit"  name="submit1" value="Create" />
     <p class="message">Already registered? <a href="#">Sign In</a></p>
-  </form>
+  </form> -->
   
   <span style="color:red;"><?php echo $message; ?></span>
    <span style="color:green;"><?php echo $success; ?></span>

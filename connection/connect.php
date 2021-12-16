@@ -1,14 +1,20 @@
 <?php
 
-$username = "csolvecom";
+
+
 $host = "localhost";
+$username = "csolvecom";
 $pass = "";
-$database = '5Csolve';
+$database = '5csolve';
+
 
 $conn = mysqli_connect($host, $username, $pass, $database);  
-if(!$conn ) 
+if(!$conn) 
 {  
   die('Could not connect: ' . mysqli_connect_error());  
-}    
+} 
 
+
+
+//mysqli_close($conn);
 ?>  
